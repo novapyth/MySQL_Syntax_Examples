@@ -12,10 +12,10 @@ SELECT COUNT( Gene_Annotation) FROM rnaseq;
 SELECT COUNT( Expression_values) FROM rnaseq;
 
 ---Counting  Gene_length from rnaseq
-SELECT COUNT( Gene_length) FROM rnaseq;
+SELECT COUNT(Gene_length) FROM rnaseq;
 
 ---Counting  Unique_gene_reads from rnaseq 
-SELECT COUNT( Unique_gene_reads) FROM rnaseq;
+SELECT COUNT(Unique_gene_reads) FROM rnaseq;
 
 ---Counting  Total_gene_read from rnaseq 
 SELECT COUNT(Total_gene_read) FROM rnaseq;
