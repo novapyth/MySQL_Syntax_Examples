@@ -38,8 +38,11 @@ SELECT Expression_values  FROM rnaseq WHERE Gene_length>2000;
 -- SELECT the column Expression_values from the table rnaseq WHERE Gene_length=3000;
 SELECT Expression_values  FROM rnaseq WHERE Gene_length=3000;
 
--- SELECT the column Gene_length from the table rnaseq
-SELECT Gene_length FROM rnaseq;
+-- SELECT the column Gene_length from the table rnaseq WHERE RPKM >30000
+SELECT Gene_length FROM rnaseq WHERE RPKM >30000;
+
+-- SELECT the column Gene_length from the table rnaseq WHERE RPKM >30000
+SELECT Gene_length FROM rnaseq WHERE RPKM >30000;
 
 -- SELECT the column Unique_gene_reads from the table rnaseq
 SELECT Unique_gene_reads  FROM rnaseq;
