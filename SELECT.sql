@@ -157,7 +157,7 @@ FROM employee_info;
 ---Counting DISTINCT Gene_ID from a table 
 SELECT COUNT(DISTINCT Gene_ID) FROM rnaseq;
 
----Counting DISTINCT Gene_Annotation from  
+---Counting DISTINCT Gene_Annotation from  rnaseq
 SELECT COUNT(DISTINCT Gene_Annotation) FROM rnaseq;
 
 ---Counting DISTINCT Expression_values from rnaseq
