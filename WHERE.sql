@@ -1,7 +1,30 @@
 --------------- WHERE Statement---------------------
+------ Using the WHERE Clause
 ------Syntax:
 SELECT column_name FROM table_name WHERE condition;
 SELECT column_name(s) FROM table_name WHERE condition;
 SELECT column_name FROM table_name WHERE condition(s);
 SELECT column_name(s) FROM table_name WHERE condition(s);
 --------------- WHERE Statement---------------------
+
+-- SELECT the column GENE_ID  from the table rnaseq
+SELECT GENE_ID  FROM rnaseq;
+
+
+-- SELECT the column Gene_Annotation from the table rnaseq
+SELECT Gene_Annotation  FROM rnaseq;
+
+-- SELECT the column Expression_values from the table rnaseq
+SELECT Expression_values  FROM rnaseq;
+
+-- SELECT the column Gene_length from the table rnaseq
+SELECT Gene_length FROM rnaseq;
+
+-- SELECT the column Unique_gene_reads from the table rnaseq
+SELECT Unique_gene_reads  FROM rnaseq;
+
+-- SELECT the column Total_gene_read from the table rnaseq
+SELECT Total_gene_read  FROM rnaseq;
+
+-- SELECT the column RPKM from the table rnaseq
+SELECT RPKM  FROM rnaseq;
