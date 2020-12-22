@@ -7,8 +7,10 @@ SELECT column_name FROM table_name WHERE condition(s);
 SELECT column_name(s) FROM table_name WHERE condition(s);
 --------------- WHERE Statement---------------------
 
--- SELECT the column GENE_ID  from the table rnaseq
-SELECT GENE_ID  FROM rnaseq;
+-- SELECT the column GENE_ID  from the table rnaseq, where Gene_length=1000
+SELECT GENE_ID 
+FROM rnaseq 
+WHERE Gene_length=1000;
 
 
 -- SELECT the column Gene_Annotation from the table rnaseq
