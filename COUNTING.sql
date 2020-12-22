@@ -2,8 +2,15 @@
 SELECT COUNT(Job)
 FROM employee_info;
 
+---Counting DISTINCT Job from employee_info
+SELECT COUNT(DISTINCT Job)
+FROM employee_info;
+
 ---Counting  Gene_ID from rnaseq
 SELECT COUNT(Gene_ID) FROM rnaseq;
+
+---Counting DISTINCT Gene_ID from rnaseq
+SELECT COUNT(DISTINCT Gene_ID) FROM rnaseq;
 
 ---Counting  Gene_Annotation from  rnaseq
 SELECT COUNT(Gene_Annotation) FROM rnaseq;
@@ -23,12 +30,6 @@ SELECT COUNT(Total_gene_read) FROM rnaseq;
 ---Counting  RPKM from rnaseq 
 SELECT COUNT(RPKM) FROM rnaseq;
 
----Counting DISTINCT Job from employee_info
-SELECT COUNT(DISTINCT Job)
-FROM employee_info;
-
----Counting DISTINCT Gene_ID from rnaseq
-SELECT COUNT(DISTINCT Gene_ID) FROM rnaseq;
 
 ---Counting DISTINCT Gene_Annotation from  rnaseq
 SELECT COUNT(DISTINCT Gene_Annotation) FROM rnaseq;
