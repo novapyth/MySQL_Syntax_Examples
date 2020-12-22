@@ -35,7 +35,7 @@ SELECT Expression_values  FROM rnaseq WHERE Gene_length=2000;
 -- SELECT the column Expression_values from the table rnaseq WHERE Gene_length<2000;
 SELECT Expression_values  FROM rnaseq WHERE Gene_length<2000;
 
--- SELECT the column Expression_values from the table rnaseq WHERE Gene_length>2000;
+-- SELECT the column Expression_values from the table rnaseq WHERE Ge ne_length>2000;
 SELECT Expression_values  FROM rnaseq WHERE Gene_length>2000;
 
 -- SELECT the column Expression_values from the table rnaseq WHERE Gene_length=3000;
