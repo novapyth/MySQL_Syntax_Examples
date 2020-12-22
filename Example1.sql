@@ -7,5 +7,3 @@ Gene_length INT,
 Unique_gene_reads INT,
 Total_gene read INT,
 RPKM Float);
-
-

@@ -154,7 +154,7 @@ SELECT COUNT(DISTINCT column_name) FROM table_name;
 SELECT COUNT(DISTINCT Job)
 FROM employee_info;
 
----Counting DISTINCT Gene_ID from a table 
+---Counting DISTINCT Gene_ID from rnaseq
 SELECT COUNT(DISTINCT Gene_ID) FROM rnaseq;
 
 ---Counting DISTINCT Gene_Annotation from  rnaseq
