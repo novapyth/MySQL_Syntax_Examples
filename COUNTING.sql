@@ -6,7 +6,7 @@ FROM employee_info;
 SELECT COUNT( Gene_ID) FROM rnaseq;
 
 ---Counting  Gene_Annotation from  rnaseq
-SELECT COUNT( Gene_Annotation) FROM rnaseq;
+SELECT COUNT(Gene_Annotation) FROM rnaseq;
 
 ---Counting  Expression_values from rnaseq
 SELECT COUNT(Expression_values) FROM rnaseq;
