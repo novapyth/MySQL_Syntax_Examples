@@ -1,5 +1,5 @@
 ---Counting  Job from employee_info
-SELECT COUNT( Job)
+SELECT COUNT(Job)
 FROM employee_info;
 
 ---Counting  Gene_ID from rnaseq
