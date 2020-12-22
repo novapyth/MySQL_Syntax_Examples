@@ -12,10 +12,10 @@ SELECT GENE_ID
 FROM rnaseq 
 WHERE Gene_length=1000;
 
--- SELECT the column GENE_ID  from the table rnaseq, where Gene_length=1000
+-- SELECT the column GENE_ID  from the table rnaseq, where Gene_length>1000
 SELECT GENE_ID 
 FROM rnaseq 
-WHERE Gene_length=1000;
+WHERE Gene_length>1000;
 
 -- SELECT the column GENE_ID  from the table rnaseq, where Gene_length=1000
 SELECT GENE_ID 
