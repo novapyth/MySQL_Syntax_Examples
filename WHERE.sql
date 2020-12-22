@@ -6,19 +6,18 @@ SELECT column_name(s) FROM table_name WHERE condition;
 SELECT column_name FROM table_name WHERE condition(s);
 SELECT column_name(s) FROM table_name WHERE condition(s);
 --------------- WHERE Statement---------------------
--- SELECT  All columns from the table employeedb, where WHERE Salary = 40000;
-SELECT * FROM employeedb WHERE Salary = 40000;
--- SELECT  All columns from the table employeedb, where WHERE Salary  40000;
-SELECT * FROM employeedb WHERE Salary > 40000;
--- SELECT  All columns from the table employeedb, where WHERE Salary = 40000;
-SELECT * FROM employeedb WHERE Salary < 40000;
 
+-- SELECT  All columns from the table employeedb, where WHERE Salary = 40000
+SELECT * FROM employeedb WHERE Salary = 40000;
+-- SELECT  All columns from the table employeedb, where WHERE Salary > 40000
+SELECT * FROM employeedb WHERE Salary > 40000;
+-- SELECT  All columns from the table employeedb, where WHERE Salary < 40000
+SELECT * FROM employeedb WHERE Salary < 40000;
+-- SELECT  All columns from the table employeedb, where WHERE City = 'New York'
 SELECT * FROM employeedb WHERE City = 'New York';
 
 -- SELECT the column GENE_ID  from the table rnaseq, where Gene_length=1000
-SELECT GENE_ID 
-FROM rnaseq 
-WHERE Gene_length=1000;
+SELECT GENE_ID FROM rnaseq WHERE Gene_length=1000;
 
 -- SELECT the column GENE_ID  from the table rnaseq, where Gene_length>1000
 SELECT GENE_ID 
