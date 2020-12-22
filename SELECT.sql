@@ -172,5 +172,5 @@ SELECT COUNT(DISTINCT Unique_gene_reads) FROM rnaseq;
 ---Counting DISTINCT Total_gene_read from a table 
 SELECT COUNT(DISTINCT Total_gene_read) FROM rnaseq;
 
----Counting DISTINCT RPKM from a table 
+---Counting DISTINCT RPKM from rnaseq 
 SELECT COUNT(DISTINCT RPKM) FROM rnaseq;
