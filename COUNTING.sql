@@ -18,7 +18,7 @@ SELECT COUNT( Gene_length) FROM rnaseq;
 SELECT COUNT( Unique_gene_reads) FROM rnaseq;
 
 ---Counting  Total_gene_read from rnaseq 
-SELECT COUNT( Total_gene_read) FROM rnaseq;
+SELECT COUNT(Total_gene_read) FROM rnaseq;
 
 ---Counting  RPKM from rnaseq 
 SELECT COUNT(RPKM) FROM rnaseq;
