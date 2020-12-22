@@ -163,7 +163,7 @@ SELECT COUNT(DISTINCT Gene_Annotation) FROM rnaseq;
 ---Counting DISTINCT Expression_values from a table 
 SELECT COUNT(DISTINCT Expression_values) FROM rnaseq;
 
----Counting DISTINCT RPKM from a table 
+---Counting DISTINCT Gene_length from a table 
 SELECT COUNT(DISTINCT RPKM) FROM rnaseq;
 
 ---Counting DISTINCT RPKM from a table 
