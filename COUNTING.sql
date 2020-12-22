@@ -9,7 +9,7 @@ SELECT COUNT( Gene_ID) FROM rnaseq;
 SELECT COUNT( Gene_Annotation) FROM rnaseq;
 
 ---Counting  Expression_values from rnaseq
-SELECT COUNT( Expression_values) FROM rnaseq;
+SELECT COUNT(Expression_values) FROM rnaseq;
 
 ---Counting  Gene_length from rnaseq
 SELECT COUNT(Gene_length) FROM rnaseq;
