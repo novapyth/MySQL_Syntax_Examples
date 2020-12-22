@@ -22,6 +22,9 @@ SELECT COUNT(DISTINCT Gene_Annotation) FROM rnaseq;
 ---Counting  Expression_values from rnaseq
 SELECT COUNT(Expression_values) FROM rnaseq;
 
+---Counting DISTINCT Expression_values from rnaseq
+SELECT COUNT(DISTINCT Expression_values) FROM rnaseq;
+
 ---Counting  Gene_length from rnaseq
 SELECT COUNT(Gene_length) FROM rnaseq;
 
@@ -34,9 +37,6 @@ SELECT COUNT(Total_gene_read) FROM rnaseq;
 ---Counting  RPKM from rnaseq 
 SELECT COUNT(RPKM) FROM rnaseq;
 
-
----Counting DISTINCT Expression_values from rnaseq
-SELECT COUNT(DISTINCT Expression_values) FROM rnaseq;
 
 ---Counting DISTINCT Gene_length from rnaseq
 SELECT COUNT(DISTINCT Gene_length) FROM rnaseq;
