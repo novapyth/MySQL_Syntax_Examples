@@ -166,7 +166,7 @@ SELECT COUNT(DISTINCT Expression_values) FROM rnaseq;
 ---Counting DISTINCT Gene_length from rnaseq
 SELECT COUNT(DISTINCT Gene_length) FROM rnaseq;
 
----Counting DISTINCT Unique_gene_reads from a table 
+---Counting DISTINCT Unique_gene_reads from rnaseq 
 SELECT COUNT(DISTINCT Unique_gene_reads) FROM rnaseq;
 
 ---Counting DISTINCT Total_gene_read from rnaseq 
