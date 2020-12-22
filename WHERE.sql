@@ -59,5 +59,5 @@ SELECT Gene_ID, Gene_Annotation, RPKM FROM rnaseq WHERE Gene_length=3000;
 -- SELECT  columns Gene_ID, Gene_Annotation, RPKM from the table rnaseq WHERE Gene_length>3000;
 SELECT Gene_ID, Gene_Annotation, RPKM FROM rnaseq WHERE Gene_length<3000;
 
--- SELECT  columns Gene_ID, Gene_Annotation, RPKM from the table rnaseq WHERE Gene_length>3000;
-SELECT Gene_ID, Gene_Annotation, RPKM FROM rnaseq WHERE Gene_length<3000;
+-- SELECT  columns Gene_ID, Gene_Annotation, RPKM from the table rnaseq WHERE Gene_length>20000;
+SELECT Gene_ID, Gene_Annotation, RPKM FROM rnaseq WHERE Gene_length>20000;
