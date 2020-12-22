@@ -163,7 +163,7 @@ SELECT COUNT(DISTINCT Gene_Annotation) FROM rnaseq;
 ---Counting DISTINCT Expression_values from a table 
 SELECT COUNT(DISTINCT Expression_values) FROM rnaseq;
 
----Counting DISTINCT Gene_length from a table 
+---Counting DISTINCT Gene_length from rnaseq
 SELECT COUNT(DISTINCT Gene_length) FROM rnaseq;
 
 ---Counting DISTINCT Unique_gene_reads from a table 
