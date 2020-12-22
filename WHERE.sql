@@ -49,7 +49,15 @@ SELECT Total_gene_read  FROM rnaseq;
 
 -- SELECT the column RPKM from the table rnaseq WHERE Gene_length=3000;
 SELECT RPKM  FROM rnaseq WHERE Gene_length=3000;
+
 -- SELECT  columns Gene_ID, RPKM from the table rnaseq WHERE Gene_length=3000;
 SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length=3000;
 
+-- SELECT  columns Gene_ID, Gene_Annotation, RPKM from the table rnaseq WHERE Gene_length=3000;
 SELECT Gene_ID, Gene_Annotation, RPKM FROM rnaseq WHERE Gene_length=3000;
+
+-- SELECT  columns Gene_ID, Gene_Annotation, RPKM from the table rnaseq WHERE Gene_length>3000;
+SELECT Gene_ID, Gene_Annotation, RPKM FROM rnaseq WHERE Gene_length<3000;
+
+-- SELECT  columns Gene_ID, Gene_Annotation, RPKM from the table rnaseq WHERE Gene_length>3000;
+SELECT Gene_ID, Gene_Annotation, RPKM FROM rnaseq WHERE Gene_length<3000;
