@@ -20,14 +20,10 @@ SELECT * FROM employeedb WHERE City = 'New York';
 SELECT GENE_ID FROM rnaseq WHERE Gene_length=1000;
 
 -- SELECT the column GENE_ID  from the table rnaseq, where Gene_length>1000
-SELECT GENE_ID 
-FROM rnaseq 
-WHERE Gene_length>1000;
+SELECT GENE_ID FROM rnaseq WHERE Gene_length>1000;
 
 -- SELECT the column GENE_ID  from the table rnaseq, where Gene_length<1000
-SELECT GENE_ID 
-FROM rnaseq 
-WHERE Gene_length<1000;
+SELECT GENE_ID FROM rnaseq WHERE Gene_length<1000;
 
 
 -- SELECT the column Gene_Annotation from the table rnaseq
