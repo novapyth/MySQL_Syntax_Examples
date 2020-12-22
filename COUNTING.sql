@@ -3,7 +3,7 @@ SELECT COUNT( Job)
 FROM employee_info;
 
 ---Counting  Gene_ID from rnaseq
-SELECT COUNT( Gene_ID) FROM rnaseq;
+SELECT COUNT(Gene_ID) FROM rnaseq;
 
 ---Counting  Gene_Annotation from  rnaseq
 SELECT COUNT(Gene_Annotation) FROM rnaseq;
