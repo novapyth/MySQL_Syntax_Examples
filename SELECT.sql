@@ -149,11 +149,10 @@ DISTINCT in Aggregate Functions:
 ---------------------------------------------------------------
 ---Counting DISTINCT columns from a table 
 SELECT COUNT(DISTINCT column_name) FROM table_name;
----Counting DISTINCT columns from employee_info
+
+---Counting DISTINCT Job from employee_info
 SELECT COUNT(DISTINCT Job)
 FROM employee_info;
 
----Counting DISTINCT columns from a table 
-
-SELECT DISTINSELECT DISTINCT  
+---Counting DISTINCT RPKM from a table 
 SELECT COUNT(DISTINCT RPKM) FROM rnaseq;
