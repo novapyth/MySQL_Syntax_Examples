@@ -144,5 +144,16 @@ FROM employee_info;
 
 DISTINCT in Aggregate Functions:
 
+---------------------------------------------------------------
+-------SELECT COUNT(DISTINCT column_name) FROM table_name;-----
+---------------------------------------------------------------
+---Counting DISTINCT columns from a table 
+SELECT COUNT(DISTINCT column_name) FROM table_name;
+---Counting DISTINCT columns from employee_info
 SELECT COUNT(DISTINCT Job)
 FROM employee_info;
+
+---Counting DISTINCT columns from a table 
+
+SELECT DISTINSELECT DISTINCT  
+SELECT COUNT(DISTINCT RPKM) FROM rnaseq;
