@@ -177,3 +177,5 @@ SELECT Gene_ID, Gene_Annotation, Unique_gene_reads  FROM rnaseq WHERE RPKM >6000
 SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length<400;
 -- SELECT  columns Gene_ID, RPKM from the table rnaseq WHERE Gene_length<400;
 SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length<400;
+-- SELECT  columns Gene_ID, RPKM from the table rnaseq WHERE Gene_length<400;
+SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length<400;
