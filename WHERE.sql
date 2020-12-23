@@ -89,6 +89,8 @@ SELECT Gene_ID, Gene_Annotation, RPKM FROM rnaseq WHERE Gene_length<3000;
 -- SELECT  columns Gene_ID, Gene_Annotation, RPKM from the table rnaseq WHERE Gene_length>20000;
 SELECT Gene_ID, Gene_Annotation, RPKM FROM rnaseq WHERE Gene_length>20000;
 
-----------------The WHERE Clause Operators----------------
---------- Operator	Description	Example
-=	Equal	WHERE x = 1
+|----------------Summary The WHERE Clause Operators----------------
+|--------- Operator	Description	Example
+|- =	Equal	--------- 
+-- SELECT  columns Gene_ID, RPKM from the table rnaseq WHERE Gene_length=3000;
+SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length=3000;
