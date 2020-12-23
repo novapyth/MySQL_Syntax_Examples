@@ -98,6 +98,8 @@ SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length=3000;
 SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length=4000;
 
 --- !=, <>	Not equal
+
+
 --- !=, <>	Not equal
 -- SELECT  columns Gene_ID, RPKM from the table rnaseq WHERE Gene_length<>400;
 SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length<>400;
