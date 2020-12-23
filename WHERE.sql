@@ -205,3 +205,6 @@ SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length>=800;
 
 -- SELECT  * from the table rnaseq WHERE Gene_length>=1000;
 SELECT * FROM rnaseq WHERE Gene_length>=1000;
+
+-- SELECT  * from the table rnaseq WHERE Gene_length>=1000;
+SELECT * FROM rnaseq WHERE Gene_length>=1000;
