@@ -25,7 +25,6 @@ SELECT GENE_ID FROM rnaseq WHERE Gene_length>1000;
 -- SELECT the column GENE_ID  from the table rnaseq, where Gene_length<1000
 SELECT GENE_ID FROM rnaseq WHERE Gene_length<1000;
 
-
 -- SELECT the column Gene_Annotation from the table rnaseq
 SELECT Gene_Annotation FROM rnaseq;
 
@@ -89,3 +88,5 @@ SELECT Gene_ID, Gene_Annotation, RPKM FROM rnaseq WHERE Gene_length<3000;
 
 -- SELECT  columns Gene_ID, Gene_Annotation, RPKM from the table rnaseq WHERE Gene_length>20000;
 SELECT Gene_ID, Gene_Annotation, RPKM FROM rnaseq WHERE Gene_length>20000;
+
+----------------The WHERE Clause Operators----------------
