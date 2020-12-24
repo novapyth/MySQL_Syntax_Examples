@@ -258,8 +258,8 @@ SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length BETWEEN 500 AND 1000;
 
 -- SELECT  * from the table rnaseq WHERE Gene_length BETWEEN 200 AND 500;
 SELECT * FROM rnaseq WHERE Gene_length BETWEEN 200 AND 500;
--- SELECT  * from the table rnaseq WHERE Gene_length<=2000;
-SELECT * FROM rnaseq WHERE Gene_length BETWEEN 400 AND 500;
+-- SELECT  * from the table rnaseq WHERE Gene_length BETWEEN 200 AND 500;
+SELECT * FROM rnaseq WHERE Gene_length BETWEEN 500 AND 750;
 
 -- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM <=1000
 SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM <=1000;
