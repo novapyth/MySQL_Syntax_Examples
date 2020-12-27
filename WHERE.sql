@@ -263,7 +263,7 @@ SELECT * FROM rnaseq WHERE Gene_length BETWEEN 500 AND 750;
 
 -- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM > 1000; Tier #1 >1000
 SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM >1000;
--- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM BETWEEN 500 AND 1000; Tier #2 250 to 1000
+-- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM BETWEEN 250 AND 1000; Tier #2 250 to 1000
 SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM BETWEEN 250 AND 1000;
 -- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM BETWEEN 500 AND 1000;Tier #3 100 to 250
 SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM BETWEEN 100 AND 250;
