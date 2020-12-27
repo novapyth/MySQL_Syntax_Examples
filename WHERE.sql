@@ -310,10 +310,10 @@ SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM  NOT B
 -- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM BETWEEN 100 AND 250;Tier#3:100 - 250
 SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM  NOT BETWEEN 100 AND 250;
 -- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM  NOT BETWEEN 50 AND 100; Tier#4: 50 - 100
-SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM BETWEEN 50 AND 100;
--- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM BETWEEN 25 AND 50; Tier#5: 25 - 50
+SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM  NOT BETWEEN 50 AND 100;
+-- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM  NOT BETWEEN 25 AND 50; Tier#5: 25 - 50
 SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM BETWEEN 25 AND 50;
--- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM BETWEEN 10 AND 25; Tier #6 10 - 25
+-- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM  NOT BETWEEN 10 AND 25; Tier #6 10 - 25
 SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM BETWEEN 10 AND 25;
 -- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM BETWEEN 5 AND 10;Tier #7 5 - 10
 SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM BETWEEN 5 AND 10;
