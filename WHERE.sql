@@ -281,7 +281,7 @@ SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM BETWEE
 -- SELECT  columns Gene_ID, RPKM from the table rnaseq Gene_length NOT BETWEEN 100 AND 400;
 SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length NOT BETWEEN 100 AND 400;
 
--- SELECT  columns Gene_ID, RPKM from the table rnaseq Gene_length NOT BETWEEN 100 AND 500;
+-- SELECT  columns Gene_ID, RPKM from the table rnaseq Gene_length NOT BETWEEN 200 AND 500;
 SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length NOT BETWEEN 200 AND 500;
 
 -- SELECT  columns Gene_ID, RPKM from the table rnaseq Gene_length NOT BETWEEN 100 AND 400;
