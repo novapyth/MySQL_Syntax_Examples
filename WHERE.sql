@@ -291,4 +291,4 @@ SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length NOT BETWEEN 300 AND 400;
 SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length NOT BETWEEN 500 AND 400;
 
 -- SELECT  columns Gene_ID, RPKM from the table rnaseq Gene_length NOT BETWEEN 100 AND 400;
-SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length NOT BETWEEN 600 AND 400;
+SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length NOT BETWEEN 600 AND 1200;
