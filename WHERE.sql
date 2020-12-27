@@ -91,7 +91,7 @@ SELECT Gene_ID, Gene_Annotation, RPKM FROM rnaseq WHERE Gene_length>20000;
 
 ----------------Summary The WHERE Clause Operators----------------
 --------- Operator	Description	Example
-- =	------- Equal	--------- 
+- =	------- Equal	---------
 -- SELECT  columns Gene_ID, RPKM from the table rnaseq WHERE Gene_length=3000;
 SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length=3000;
 -- SELECT  columns Gene_ID, RPKM from the table rnaseq WHERE Gene_length=4000;
@@ -139,7 +139,7 @@ SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM <>5000
 SELECT Gene_ID, Gene_Annotation, Unique_gene_reads  FROM rnaseq WHERE RPKM <>6000;
 
 
-----------  > --------------- Greater than	
+----------  > --------------- Greater than
 -- SELECT  columns Gene_ID, RPKM from the table rnaseq WHERE Gene_length>400;
 SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length>400;
 -- SELECT  columns Gene_ID, RPKM from the table rnaseq WHERE Gene_length>500;
@@ -273,3 +273,10 @@ SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM <=4000
 SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM BETWEEN 500 AND 1000;
 -- SELECT columns Gene_ID, Gene_Annotation, Gene_length, RPKM  from the table rnaseq WHERE RPKM BETWEEN 500 AND 1000;
 SELECT Gene_ID, Gene_Annotation, Gene_length, RPKM FROM rnaseq WHERE RPKM BETWEEN 500 AND 1000;
+
+
+
+
+------------- ------------- Between -------------
+-- SELECT  columns Gene_ID, RPKM from the table rnaseq Gene_length BETWEEN 100 AND 400;
+SELECT Gene_ID, RPKM FROM rnaseq WHERE Gene_length BETWEEN 100 AND 400;
