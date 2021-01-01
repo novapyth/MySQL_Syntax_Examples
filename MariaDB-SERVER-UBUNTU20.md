@@ -1,5 +1,5 @@
 # Installing Mariadb Server in Ubuntu 20.04
-  ## heck at main page of maridadb for mirror etc  https://mariadb.org/
+  ### check at main page of maridadb for mirror etc  https://mariadb.org/
 
 sudo apt-get install software-properties-common dirmngr apt-transport-https
 
