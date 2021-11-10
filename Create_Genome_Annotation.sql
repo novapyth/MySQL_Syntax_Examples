@@ -4,5 +4,5 @@ Gene_Annotation VARCHAR(255),
 Protein_Sequence_Length	 INT,
 mean_Similarity	 Float,
 NO_GOs 	 INT,
-GOs	VARCHAR(2255),
+GOs	VARCHAR(255),
 Enzyme_Codes VARCHAR(255));
