@@ -1,0 +1,6 @@
+-- Load local infile "~/variantDB/variantID.csv" INTO TABLE variantID
+LOAD DATA LOCAL INFILE "~/Scopulariopsis/Genome_Annotation.csv" INTO TABLE variantDB.variantID 
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n' 
+IGNORE 1 LINES 
+(variantID);
